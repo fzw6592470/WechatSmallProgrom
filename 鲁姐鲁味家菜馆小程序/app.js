@@ -10,6 +10,17 @@ App({
     wx.login({
       success: res => {
         // 发送 res.code 到后台换取 openId, sessionKey, unionId
+        if(res.code){
+          wx.getUserInfo({
+            withCredentials: false,
+            success: function(data){
+              console.info("1成功获取用户返回数据");
+              console.info(data.userInfo);
+              
+            }
+          })
+
+        }
       }
     })
     // 获取用户信息

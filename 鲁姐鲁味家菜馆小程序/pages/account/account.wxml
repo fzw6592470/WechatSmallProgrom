@@ -1,6 +1,20 @@
 <!--index.wxml-->
 <view class="container">
+
+  <!-- 头部信息 -->
   <view class="header">
-    
+    <view class="header-user-img">
+      <image src="{{userInfo.avatarUrl}}"></image>
+    </view>
+
+    <view class="header-user-info">
+        <view class="header-user-p header-user-name">{{ userInfo.nickName }}</view>
+        <view class="header-user-p">积分：<view class=" header-user-score">0</view></view>
+    </view>
+  </view>
+
+  <!-- 头部信息 -->
+  <view class="account-nav-list">
+    <view class="account-nav-li" bindtap="bindViewTurn" data-url="../about/about">关于我们 <view class="account-nav-icon">></view></view>
   </view>
 </view>
