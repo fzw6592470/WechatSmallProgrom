@@ -15,6 +15,16 @@
 
   <!-- 头部信息 -->
   <view class="account-nav-list">
-    <view class="account-nav-li" bindtap="bindViewTurn" data-url="../about/about">关于我们 <view class="account-nav-icon">></view></view>
+    <view class="account-nav-li" bindtap="bindViewTurn" data-url="../order/order"><view class="account-nav-li-icon icon-notebook"></view>我的订单 </view>
+
+    <view class="account-nav-li" bindtap="bindViewTurn" data-url="../receiving/address"><view class="account-nav-li-icon icon-location"></view>收货地址 </view>
+
+    <view class="account-nav-li" bindtap="bindViewTurn" data-url="../about/about"><view class="account-nav-li-icon icon-shoppingcart"></view>购物车 </view>
+
+    <view class="account-nav-li" bindtap="bindViewTurn" data-url="../notify/notify"><view class="account-nav-li-icon icon-notify"></view>系统通知 </view>
+
+    <view class="account-nav-li" bindtap="bindViewTurn" data-url="../integral/integral"><view class="account-nav-li-icon icon-integral"></view>积分 </view>
+
+    <view class="account-nav-li" bindtap="bindViewTurn" data-url="../about/about"><view class="account-nav-li-icon icon-notebook"><image src='http://img.weiye.me/zcimgdir/album/file_5911230030af4.png'></image></view>联系我们 </view>
   </view>
 </view>

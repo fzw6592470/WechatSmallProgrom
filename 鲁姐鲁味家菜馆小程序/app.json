@@ -7,24 +7,30 @@
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#000",
     "navigationBarTitleText": "鲁姐卤味家菜馆",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"white"
   },
   "tabBar": {
     "list": [{
       "pagePath": "pages/account/account",
-      "text": " 个人中心"
+      "text": "个人中心",
+      "iconPath": "images/person.png",
+      "selectedIconPath":"images/person_selected.png"
     },{
       "pagePath": "pages/index/index",
-      "text": "点餐"
+      "text": "首页",
+      "iconPath": "images/index.png",
+      "selectedIconPath": "images/index_selected.png"
     }, {
       "pagePath": "pages/logs/logs",
-      "text": "我的订单"
+      "text": "活动",
+      "iconPath": "images/active.png",
+      "selectedIconPath": "images/active_selected.png"
     }],
-    "backgroundColor": "#000000",
-    "color": "#ffffff",
-    "selectedColor": "green"
+    "backgroundColor": "#f2f2f2",
+    "color": "#666",
+    "selectedColor": "#efbf1f"
     
   }
 }
